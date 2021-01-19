@@ -6,8 +6,8 @@ FSJS Project 2 - Data Pagination and Filtering
 const itemsPerPage = 10;
 
 function showPage(list, page) {
-  let startIndex = page * itemsPerPage - itemsPerPage;
-  let endIndex = page * itemsPerPage;
+  let startIndex = page * 9 - 9;
+  let endIndex = page * 9;
   let studentList = document.querySelector(".student-list");
   console.log(studentList);
   studentList.innerHTML = ``;
